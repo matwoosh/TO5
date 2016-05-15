@@ -33,7 +33,7 @@ public class ProductB implements Product {
 
     @Override
     public void notifyAllClients() {
-        for (Client c : clients){
+        for (Client c : clients) {
             c.notifyClient(productName);
         }
     }

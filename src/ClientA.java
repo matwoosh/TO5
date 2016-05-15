@@ -4,7 +4,7 @@
 public class ClientA implements Client {
     private String phoneNumber;
 
-    public ClientA(String number){
+    public ClientA(String number) {
         phoneNumber = number;
     }
 
