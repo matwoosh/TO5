@@ -4,11 +4,11 @@ import java.util.List;
 /**
  * Created by Jan on 2016-05-15.
  */
-public class ProductB implements Product {
+public class ProductA implements Product {
     private final String productName;
     private List<Client> clients = new ArrayList<>();
 
-    public ProductB(String name) {
+    public ProductA(String name) {
         productName = name;
     }
 
@@ -38,3 +38,4 @@ public class ProductB implements Product {
         }
     }
 }
+
